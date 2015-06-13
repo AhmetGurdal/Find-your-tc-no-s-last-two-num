@@ -4,6 +4,8 @@ if "--help" in argv or "-h" in argv:
     print "yazdiginiz takdirde geri kalan 2 hanesini verir."
     quit()
 firstnine = raw_input(":")
+if len(firstnine) != 9 and firstnine.isdigit != True:
+	quit()
 singles = []
 doubles = []
 i = 0
